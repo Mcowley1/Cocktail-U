@@ -2,3 +2,134 @@
     font-family: 'Cinzel', serif;
 }
 
+
+
+
+.product-card {
+  background-color: #fefefe;
+  border: 1px solid #e6e6e6;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.product-card-thumbnail {
+  display: block;
+  position: relative;
+}
+
+.product-card-title {
+  font-family: 'Open sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.45rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.product-card-desc {
+  color: #8a8a8a;
+  display: block;
+  font-family: 'Open sans', sans-serif;
+  font-size: 0.85rem;
+}
+
+.product-card-price {
+  color: #3e3e3e;
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: 0.8rem;
+}
+
+.product-card-sale {
+  color: #cacaca;
+  display: inline-block;
+  font-size: 0.85rem;
+  margin-left: 0.3rem;
+  text-decoration: line-through;
+}
+
+.product-card-colors {
+  display: block;
+  margin-top: 0.8rem;
+}
+
+.product-card-color-option {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+}
+
+
+
+
+
+
+.card-wine-container {
+  margin-bottom: 1rem;
+  background-color: #fefefe;
+  color: #0a0a0a;
+  overflow: hidden;
+  padding: 0;
+  border-radius: 0;
+}
+
+.card-wine-container .card-wine-avatar .wine-image {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  width: 11.875rem;
+  height: 11.875rem;
+  padding: 0.9375rem;
+}
+
+.card-wine-container .card-wine-avatar .wine-image:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.card-wine-container .card-wine-bio {
+  padding: 1rem;
+  text-align: center;
+}
+
+.card-wine-container .card-wine-bio .location {
+  display: inline-block;
+  margin: 0 0.9375rem;
+  color: #767676;
+  font-size: 0.875rem;
+}
+
+.card-wine-container .card-wine-bio .location-icon,
+.card-wine-container .card-wine-bio .location-text {
+  display: inline-block;
+  padding: 0 0.3125rem;
+}
+
+.card-wine-container .card-wine-social {
+  background: #e6e6e6;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card-wine-container .card-wine-social ul {
+  display: inline-block;
+}
+
+.card-wine-container .card-wine-social ul li {
+  margin: 0 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.card-wine-container .card-wine-social ul li:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.card-wine-container .card-wine-button {
+  text-align: center;
+  padding: 1rem;
+}
