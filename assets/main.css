@@ -115,7 +115,7 @@ body {
   }
 /* nav bar ends */  
 
-/* Types of Wines Container Starts*/
+/* Types of Drinks Container Starts*/
 .five-up-feature {
   text-align: center;
 } */
@@ -134,11 +134,11 @@ body {
 .five-up-feature .five-up-feature-text {
   margin-bottom: 2rem;
 }
-/* Types of Wines Container Ends */
+/* Types of Drinks Container Ends */
 
 
-/*Wine Card Container Starts */
-.card-wine-container {
+/*Drinks Card Container Starts */
+.card-drinks-container {
   margin-bottom: 1rem;
   background-color: #fefefe;
   color: #0a0a0a;
@@ -147,7 +147,7 @@ body {
   border-radius: 0;
 }
 
-.card-wine-container .card-wine-avatar .wine-image {
+.card-drinks-container .card-drinks-avatar .drinks-image {
   display: block;
   margin: auto;
   border-radius: 50%;
@@ -156,57 +156,57 @@ body {
   padding: 0.9375rem;
 }
 
-.card-wine-container .card-wine-avatar .wine-image:hover {
+.card-drinks-container .card-drinks-avatar .drinks-image:hover {
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-.card-wine-container .card-wine-bio {
+.card-drinks-container .card-drinks-bio {
   padding: 1rem;
   text-align: center;
 }
 
-.card-wine-container .card-wine-bio .location {
+.card-drinks-container .card-drinks-bio .location {
   display: inline-block;
   margin: 0 0.9375rem;
   color: #767676;
   font-size: 0.875rem;
 }
 
-.card-wine-container .card-wine-bio .location-icon,
-.card-wine-container .card-wine-bio .location-text {
+.card-drinks-container .card-drinks-bio .location-icon,
+.card-drinks-container .card-drinks-bio .location-text {
   display: inline-block;
   padding: 0 0.3125rem;
 }
 
-.card-wine-container .card-wine-social {
+.card-drinks-container .card-drinks-social {
   background: #e6e6e6;
   padding: 1rem;
   text-align: center;
 }
 
-.card-wine-container .card-wine-social ul {
+.card-drinks-container .card-drinks-social ul {
   display: inline-block;
 }
 
-.card-wine-container .card-wine-social ul li {
+.card-drinks-container .card-drinks-social ul li {
   margin: 0 10px;
   font-size: 1.2em;
   cursor: pointer;
 }
 
-.card-wine-container .card-wine-social ul li:hover {
+.card-drinks-container .card-drinks-social ul li:hover {
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-.card-wine-container .card-wine-button {
+.card-drinks-container .card-drinks-button {
   text-align: center;
   padding: 1rem;
 }
-/*Wine Card Container Ends */
+/*Drinks Card Container Ends */
 
 
 /* footer starts */
