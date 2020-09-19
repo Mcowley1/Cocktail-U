@@ -30,19 +30,6 @@ $(function() {
       }
   } 
 
-// Get Drinks
-// Forloop for persisting the data on the DOM
-function loadHistory(){
-  for (var i = 0; i < searchHistory.length; i++) {
-      var historyDivs = $('<div>');
-      historyDivs.addClass("saved-items");
-      historyDivs.addClass('list-group-item');
-      historyDivs.innerHTML(searchHistory[i]);
-      historyDivs.attr("data-index", searchHistory[i]);
-      drinkHistory.append(historyDivs);
-  }
-}
-
 //funtion to call drinks
   $("#vodka").on("click", function(){
     // var  = $(this).attr("");
@@ -52,8 +39,18 @@ function loadHistory(){
       method: "GET",
     }).then(function (response) {
       console.log(response)
+      //Append information to Page
+      var currentCard = $("#vodka")
+      .append("<div>")
+      .addClass("card-body");
+      // currentCard.();
+      var currentName = currentCard.append("<p>");
+      // .addClass("card-text");
+      currentCard.append(currentName);
     })
 });
+
+
 // Search button click event
 searchButton.click(function (event) {
   // event.preventDefault();
