@@ -20,15 +20,24 @@
 
   /* Custom Styling */
 
-/* Recipe results will wrap on multiple lines if needed */
-#drink-content {
-  flex-wrap: wrap;
+/* Cocktails Styling*/
+.drink {
+  cursor: pointer;
+  font-family: Cinzel;
+  background-color: #242420;
+  color: #878472;
 }
-
-/* When a user hovers on a recipe tile, the cursor will change to a pointer to indicate that it can be clicked */
-.drink-tile:hover {
+.drink-section {
+  flex-wrap: wrap;
   cursor: pointer;
 }
+
+.#card-divider {
+  font-family: Cinzel;
+  background-color: #242420;
+  color: #878472;
+}
+
 
 /* start of nav bar */
 body {

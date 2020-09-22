@@ -46,7 +46,7 @@ var drinkType = $(this).attr("data-index");
       console.log(response)
       for (var i=0; i<response.drinks.length; i++) {
         response.drinks[i]
-        var card = $('<div class="card"  style="width: 300px;">');
+        var card = $('<div class="card" style="width: 300px;">');
         var drinkheader = $('<div class="card-divider">').text(response.drinks[i].strDrink).appendTo(card)
         var drinkimage = $('<img src='+ response.drinks[i].strDrinkThumb +'>').appendTo(card)
 card.appendTo(drinkSection)
