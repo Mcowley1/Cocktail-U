@@ -20,25 +20,6 @@
 
   /* Custom Styling */
 
-/* Cocktails Styling*/
-.drink {
-  cursor: pointer;
-  font-family: Cinzel;
-  background-color: #242420;
-  color: #878472;
-}
-.drink-section {
-  flex-wrap: wrap;
-  cursor: pointer;
-}
-
-.#card-divider {
-  font-family: Cinzel;
-  background-color: #242420;
-  color: #878472;
-}
-
-
 /* start of nav bar */
 body {
     padding-top: 330px;
@@ -146,76 +127,13 @@ body {
 /* Types of Drinks Container Ends */
 
 
-/*Drinks Card Container Starts */
-.card-drinks-container {
-  margin-bottom: 1rem;
-  background-color: #fefefe;
-  color: #0a0a0a;
-  overflow: hidden;
-  padding: 0;
-  border-radius: 0;
+/*Cocktails Card Selection Starts */
+.card {
+  width: 200px;
+  height: 200px;
+  font: small;
 }
-
-.card-drinks-container .card-drinks-avatar .drinks-image {
-  display: block;
-  margin: auto;
-  border-radius: 50%;
-  width: 11.875rem;
-  height: 11.875rem;
-  padding: 0.9375rem;
-}
-
-.card-drinks-container .card-drinks-avatar .drinks-image:hover {
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
-.card-drinks-container .card-drinks-bio {
-  padding: 1rem;
-  text-align: center;
-}
-
-.card-drinks-container .card-drinks-bio .location {
-  display: inline-block;
-  margin: 0 0.9375rem;
-  color: #767676;
-  font-size: 0.875rem;
-}
-
-.card-drinks-container .card-drinks-bio .location-icon,
-.card-drinks-container .card-drinks-bio .location-text {
-  display: inline-block;
-  padding: 0 0.3125rem;
-}
-
-.card-drinks-container .card-drinks-social {
-  background: #e6e6e6;
-  padding: 1rem;
-  text-align: center;
-}
-
-.card-drinks-container .card-drinks-social ul {
-  display: inline-block;
-}
-
-.card-drinks-container .card-drinks-social ul li {
-  margin: 0 10px;
-  font-size: 1.2em;
-  cursor: pointer;
-}
-
-.card-drinks-container .card-drinks-social ul li:hover {
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
-.card-drinks-container .card-drinks-button {
-  text-align: center;
-  padding: 1rem;
-}
-/*Drinks Card Container Ends */
+/*Cocktails Card Selection Ends */
 
 
 /* footer starts */
