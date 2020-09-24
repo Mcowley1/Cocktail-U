@@ -1,17 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Wine-Utopia</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main Cocktails-Utopia</title>
+  <!--Foundation CSS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
+    integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./assets/main.css">
+
 </head>
+
+<!--sticky navbar-->
+<header class="sticky-shrinknav-header">
+  <h1 class="sticky-shrinknav-header-title"><img src="nav-img.jpg">COCKTAILS UTOPIA</h1>
+  <ul class="menu align-center sticky-shrinknav-menu">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Drinks</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</header>
+
 <body>
-    
-</body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js" integrity="sha512-rmZcZsyhe0/MAjquhTgiUcb4d9knaFc7b5xAfju483gbEXTkeJRUMIPk6s3ySZMYUHEcjKbjLjyddGWMrNEvZg==" crossorigin="anonymous"></script>
-<script src="./assets/main.js"></script>
+  <!--Types of drinks Container Starts-->
+  <section class="five-up-feature ">
+    <div class="five-up-feature-header">
+      <div class="columns">
+        <h2>COCKTAILS UTOPIA</h2>
+        <h5>Choose from any of our specialty drinks or make your own.</h5>
+      </div>
+    </div>
+    <div class="flex-container row align-spaced">
+
+      <div class="small-5 medium-3 column drink" data-index="vodka">
+        <div class="selectable search-input">
+          <img class="five-up-feature-image" src="https://www.thecocktaildb.com/images/ingredients/Vodka.png"
+            alt="icon">
+          <h4 class="font">Vodka</h4>
+        </div>
+        <p class="font five-up-feature-text">Description Text</p>
+      </div>
+      <ul class="list-group data-index" id="saved-searches"></ul>
+
+      <div class="small-5 medium-3 column drink" data-index="tequila">
+        <img class="five-up-feature-image" src="https://www.thecocktaildb.com/images/ingredients/Tequila.png"
+          alt="icon">
+        <h4 class="font">Tequila</h4>
+        <p class="five-up-feature-text">Description Text </p>
+        <ul class="list-group data-index" id="saved-searches"></ul>
+      </div>
+      <div class="small-5 medium-3 columns drink" data-index="gin">
+        <img class="five-up-feature-image" src="https://www.thecocktaildb.com/images/ingredients/Gin.png" alt="icon">
+        <h4 class="font">Gin</h4>
+        <p class="five-up-feature-text">Description Text</p>
+        <ul class="list-group data-index" id="saved-searches"></ul>
+      </div>
+      <div class="small-5 medium-3 columns drink" data-index="scotch">
+        <img class="five-up-feature-image" src="https://www.thecocktaildb.com/images/ingredients/Scotch.png" alt="icon">
+        <h4 class="font">Scotch</h4>
+        <p class="five-up-feature-text">Description Text</p>
+        <ul class="list-group data-index" id="saved-searches"></ul>
+      </div>
+      <div class="small-5 medium-3 columns drink" data-index="rum">
+        <img class="five-up-feature-image" src="https://www.thecocktaildb.com/images/ingredients/Rum.png" alt="icon">
+        <h4 class="font">Rum</h4>
+        <p class="five-up-feature-text">Description Text</p>
+        <ul class="list-group data-index" id="saved-searches"></ul>
+      </div>
+    </div>
+  </section>
+  <!--Types of drinks Container Ends-->
+
+  <!--Cocktails Card Selection Starts-->
+  <section class="cocktails">
+    <div class="grid-container row align-spaced">
+      <div class="grid-x grid-margin-x small-5 medium-3 drink drink-section"></div>
+    </div>
+  </section>
+  <!--Cocktails Card Selection Ends-->
+
+  <!--Footer-->
+  <footer class="responsive-blog-footer">
+    <div class="row">
+      <div class="medium-3 columns small-order-2 medium-order-1 about-container">
+        <div class="row">
+          <div class="hide-for-small-only medium-4 columns about-section">
+            <img src="https://placehold.it/250x250">
+          </div>
+          <div class="medium-8 columns about-section">
+            <h4> About Me</h4>
+            <p>paragraph about how amazing and awesome i am paragraph about how amazing and awesome i am paragraph about
+              how amazing and awesome i am</p>
+            <a href="">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="small-12 medium-4 columns small-order-1 medium-order-2 mailing-container">
+        <h4 class="mailing-list">Join my mailing list</h4>
+        <input type="text" placeholder="Email Address">
+        <a class="button expanded subscribe-button" href="#">Subscribe Now</a>
+      </div>
+    </div>
+    <div class="row tag-search">
+      <div class="columns">
+        <h4>Search by Tag</h4>
+        <ul class="menu simple tag-section">
+          <li><a href="">word</a></li>
+          <li><a href="">word</a></li>
+          <li><a href="">word</a></li>
+          <li><a href="">word</a></li>
+          <li><a href="">word</a></li>
+          <li><a href="">word</a></li>
+          <li><a href="">word</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row columns flex-container align-justify">
+      <p> all rights reserved</p>
+      <div class="up-arrow">
+        <a href="#top"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--JQuery-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
+    integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
+    integrity="sha512-rmZcZsyhe0/MAjquhTgiUcb4d9knaFc7b5xAfju483gbEXTkeJRUMIPk6s3ySZMYUHEcjKbjLjyddGWMrNEvZg=="
+    crossorigin="anonymous"></script>
+  <script src="./assets/main.js"></script>
+
 </html>

@@ -1,4 +1,90 @@
 * {
     font-family: 'Cinzel', serif;
+    margin: 0;
+    padding: 0;
 }
 
+img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -7;
+    background-size: cover;
+
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.login-box h1 {
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 25px;
+    color: whitesmoke;
+    border-bottom: solid;
+    margin-bottom: 30px;
+    font-weight: 500px;
+    text-transform: uppercase;
+    margin-left: 29px;
+    
+}
+
+.textbox {
+    height: 50px; 
+}
+
+.textbox input {
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    background: none;
+    margin: auto;
+    text-align: center;
+    padding: 10px 10px;
+    outline: none;
+    color: whitesmoke;
+    font-size: 15px;
+    margin-left: 37px;
+}
+
+.textbox input:focus {
+    width: 250px;
+    border-color: lightgreen;
+}
+
+.btn {
+    margin-top: 25px;
+    border: 2px solid #b3ffb3;
+    color:  black;
+    background-color: #b3ffb3;
+    border-radius: 7px;
+    width: 100px;
+    height: 40%;
+    outline: none;
+    margin-left: 35px;
+    transition: 2s;
+}
+
+.btn:hover {
+    background-color: lightblue;
+    width: 200px;
+}
+
+
+body {
+    background-color: lightgray;
+    z-index: 99;
+    opacity: 0.8 ;
+}
+
+input::placeholder {
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 19px;
+    letter-spacing: 3px;
+    opacity: 0.9;
+}

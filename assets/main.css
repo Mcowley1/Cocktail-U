@@ -1,4 +1,190 @@
 * {
-    font-family: 'Cinzel', serif;
+    font-family: Cinzel;
+    background-color: #242420;
+    color: #878472;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .product-card {
+    background-color: #fefefe;
+    border: 1px solid #e6e6e6;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .product-card-thumbnail {
+    display: block;
+    position: relative;
+  }
+
+  /* Custom Styling */
+
+/* start of nav bar */
+body {
+    padding-top: 330px;
+    background-color: #242420;
+  }
+  
+  .sticky-shrinknav-menu {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    bottom: 0;
+    height: 3.75rem;
+    line-height: 3.75rem;
+    width: 100%;
+    background-color: rgba(23, 121, 186, 0.1);
+    transition: all 0.5s ease;
+  }
+  
+  .sticky-shrinknav-menu li {
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+  
+  .sticky-shrinknav-menu li:hover {
+    box-shadow: 0 0 0 1px #fefefe;
+  }
+  
+  .sticky-shrinknav-menu a {
+    color: #fefefe;
+  }
+  
+  .sticky-shrinknav-header-title {
+    transition: all 0.3s ease;
+    position: relative;
+    -webkit-transform: translateY(-1.875rem);
+        -ms-transform: translateY(-1.875rem);
+            transform: translateY(-1.875rem);
+    margin-bottom: 0;
+    color: #fefefe;
+    font-family: cinzel;
+  }
+  
+  .sticky-shrinknav-header {
+    width: 100%;
+    height: 300px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #2196e3;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    letter-spacing: 6px;
+    font-weight: bold;
+    font-family: cinzel;
+  }
+  
+  body.sticky-shrinknav-wrapper {
+    padding-top: 130px;
+  }
+  
+  body.sticky-shrinknav-wrapper .sticky-shrinknav-header {
+    height: 3.75rem;
+    background-color: rgba(9, 18, 24, 0.4);
+  }
+  
+  body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-title {
+    -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+            transform: scale(0);
+    transition: all 0.3s ease;
+  }
+/* nav bar ends */  
+
+/* Types of Drinks Container Starts*/
+.five-up-feature {
+  text-align: center;
+} */
+
+.five-up-feature .five-up-feature-header {
+  margin-bottom: 6rem;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
+.five-up-feature .five-up-feature-image {
+  margin-bottom: 2rem;
+}
+
+.five-up-feature .five-up-feature-text {
+  margin-bottom: 2rem;
+}
+/* Types of Drinks Container Ends */
+
+
+/*Cocktails Card Selection Starts */
+.card {
+  width: 200px;
+  height: 200px;
+  font: small;
+}
+/*Cocktails Card Selection Ends */
+
+
+/* footer starts */
+.responsive-blog-footer {
+  background: #4a4a4a;
+  padding: 3rem 3rem;
+  color: white;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .responsive-blog-footer h4 {
+    font-size: 1.5rem;
+  }
+}
+
+.responsive-blog-footer p {
+  color: #8a8a8a;
+}
+
+.responsive-blog-footer .mailing-list {
+  margin-bottom: 1.5rem;
+}
+
+.responsive-blog-footer .mailing-container {
+  margin-bottom: 2rem;
+}
+
+.responsive-blog-footer .about-section, .responsive-blog-footer .tag-section {
+  margin-bottom: 2rem;
+}
+
+.responsive-blog-footer .about-section a, .responsive-blog-footer .tag-section a {
+  color: #1779ba;
+}
+
+.responsive-blog-footer .subscribe-button {
+  background-color: #1779ba;
+}
+
+.responsive-blog-footer .subscribe-button:hover {
+  background-color: #146aa3;
+  transition: color 0.3s ease-in;
+}
+
+.responsive-blog-footer .fa-chevron-circle-up {
+  font-size: 3rem;
+  color: #8a8a8a;
+}
+
+.responsive-blog-footer .fa-chevron-circle-up:hover {
+  color: #b0b0b0;
+  transition: color 0.3s ease-in;
+}
+/* footer ends */  
