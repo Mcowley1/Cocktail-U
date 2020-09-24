@@ -3,32 +3,58 @@
 #### User Criteria
 
 AS AN consumer with access to the application
-I WANT to be able to see a digital cocktail menu 
+
+
+I WANT to be able to see a digital cocktail menu
+
+
 SO THAT I can access different cocktail types as i pick an alcohol type
+
 
 #### Acceptance Criteria
 
 Given I need a site that provides an list of cocktails when selecting an alcohol type
 
+
 WHEN I’m on landing page
+
+
 THEN I am presented with a name and email input
 
+
 WHEN I do not provide name and email
+
+
 THEN i am not able to proceed to main page
 
+
 WHEN I provide name and email
+
+
 THEN I can proceed to main page
 
+
 WHEN I click on the navigation bar area
+
+
 THEN I am able to see content in a modal style
 
+
 WHEN I am selecting alcohol choice
+
+
 THEN I can see a list of cocktails made with that given alcohol choice coming from an API server
 
+
 WHEN I proceed to the footer
+
+
 THEN I see an image with foundation framework style
 
+
 WHEN I see this page on different type of screen widths
+
+
 THEN application will accommodate accordingly using media queries
 
 
