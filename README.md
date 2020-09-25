@@ -1,4 +1,4 @@
-# Wine-Utopia
+# Tipsy - Cocktails
 
 #### User Criteria
 
