@@ -64,7 +64,11 @@ THEN application will accommodate accordingly using media queries
 
 #### Project Screenshot
 
+Landing Page
+
 ![Cocktail-utopia-landing-page](./landing-page.PNG)
+
+Main Page
 ![Cocktail-utopia-landing-page](./main-page.PNG)
 
 
