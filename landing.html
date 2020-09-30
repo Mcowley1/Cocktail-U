@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Wine-page</title>
+    <title>Landing Cocktail-U</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&display=swap"
       rel="stylesheet"
@@ -13,18 +13,19 @@
   <body>
     <img src="image.png"/>
     <div class="login-box">
-      <h1>Wine Utopia</h1>
+      <h1>COCKTAIL-U</h1>
+      <form name="myform" id='myform'>
         <div class="textbox">
-          <input type="Name" placeholder="Name" name="" value="" />
+          <input required id="name" type="Name" placeholder="Name" name="" value="" />
         </div>
         <div class="textbox">
-          <input type="email" placeholder="Email" name="" value="" />
+          <input required id="email" type="email" placeholder="Email" name="" value="" />
         </div>
-
-        <input class="btn" type="button" name="" value="Welcome" />
-      </div>
+          <input id="btn" type="submit" name="" value="Enter" />
+      </form>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./assets/landing.js"></script>
   </body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="./assets/landing.js"></script>
+
 </html>
