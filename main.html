@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Main Cocktails-Utopia</title>
+  <title>Main Cocktails-U</title>
   <!--Foundation CSS-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
     integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
@@ -14,12 +14,12 @@
 
 <!--sticky navbar-->
 <header class="sticky-shrinknav-header">
-  <h1 class="sticky-shrinknav-header-title"><img src="nav-img.jpg">COCKTAILS UTOPIA</h1>
+  <h1 class="sticky-shrinknav-header-title"><img src="cocktails.jpg"></h1>
   <ul class="menu align-center sticky-shrinknav-menu">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Drinks</a></li>
-    <li><a href="#">Contact</a></li>
+    <!--modal buttons-->
+    <li><button class="modal-btn" href="#">Home</a></li>
+    <li><button class="modal-btn1" href="#">About</a></li>
+    <li><button class="modal-btn2" href="#">Contact Us</a></li>
   </ul>
 </header>
 
@@ -28,19 +28,22 @@
   <section class="five-up-feature ">
     <div class="five-up-feature-header">
       <div class="columns">
-        <h2>COCKTAILS UTOPIA</h2>
-        <h5>Choose from any of our specialty drinks or make your own.</h5>
+        <h2>COCKTAIL-U</h2>
+        <h5><em>Choose from any of our specialty drinks with one of the bottles below</em></h5>
       </div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/tAzN2FukjnY?controls=0&amp;start=63&autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+    
+
+    <br />
     <div class="flex-container row align-spaced">
 
       <div class="small-5 medium-3 column drink" data-index="vodka">
-        <div class="selectable search-input">
-          <img class="five-up-feature-image" src="https://www.thecocktaildb.com/images/ingredients/Vodka.png"
-            alt="icon">
+        <div class = "selectable search-input">
+          <img class="five-up-feature-image" src="https://www.thecocktaildb.com/images/ingredients/Vodka.png" alt="icon">
           <h4 class="font">Vodka</h4>
         </div>
-        <p class="font five-up-feature-text">Description Text</p>
+        <p class="font five-up-feature-text">"Vodka is tasteless going down, but it is memorable coming up."</p>
       </div>
       <ul class="list-group data-index" id="saved-searches"></ul>
 
@@ -48,93 +51,100 @@
         <img class="five-up-feature-image" src="https://www.thecocktaildb.com/images/ingredients/Tequila.png"
           alt="icon">
         <h4 class="font">Tequila</h4>
-        <p class="five-up-feature-text">Description Text </p>
+        <p class="five-up-feature-text">“I didn't text you, tequila did”</p>
         <ul class="list-group data-index" id="saved-searches"></ul>
       </div>
       <div class="small-5 medium-3 columns drink" data-index="gin">
         <img class="five-up-feature-image" src="https://www.thecocktaildb.com/images/ingredients/Gin.png" alt="icon">
         <h4 class="font">Gin</h4>
-        <p class="five-up-feature-text">Description Text</p>
+        <p class="five-up-feature-text">"We believe in love at first gin."</p>
         <ul class="list-group data-index" id="saved-searches"></ul>
       </div>
       <div class="small-5 medium-3 columns drink" data-index="scotch">
         <img class="five-up-feature-image" src="https://www.thecocktaildb.com/images/ingredients/Scotch.png" alt="icon">
         <h4 class="font">Scotch</h4>
-        <p class="five-up-feature-text">Description Text</p>
+        <p class="five-up-feature-text">"I started drinking Scotch just to be a man."</p>
         <ul class="list-group data-index" id="saved-searches"></ul>
       </div>
       <div class="small-5 medium-3 columns drink" data-index="rum">
         <img class="five-up-feature-image" src="https://www.thecocktaildb.com/images/ingredients/Rum.png" alt="icon">
         <h4 class="font">Rum</h4>
-        <p class="five-up-feature-text">Description Text</p>
+        <p class="five-up-feature-text">"Time Flies When You're Having RUM"</p>
         <ul class="list-group data-index" id="saved-searches"></ul>
       </div>
     </div>
   </section>
   <!--Types of drinks Container Ends-->
 
-  <!--Cocktails Card Selection Starts-->
-  <section class="cocktails">
-    <div class="grid-container row align-spaced">
-      <div class="grid-x grid-margin-x small-5 medium-3 drink drink-section"></div>
+<!--Cocktails Card Selection Starts-->
+<div class="flex-container row align-spaced">
+  <div class="small-5 medium-3 column drink drink-section"></div>
+</div>
+<!--Cocktails Card Selection Ends-->
+<!--modal-->
+<div class="modal-bg">
+  <div class="modal">
+    <h2>TIPSY'S</h2>
+    <p>Your Home Already!!!</p>
+    <span class="modal-close">X</span>
+  </div>
+</div>
+<div class="modal-bg1">
+  <div class="modal">
+    <h2>About Tipsy's</h2>
+    <p>Tipsy's is a website that provides a menu of drinks for the alcohol that you choice in the bar. Have fun! look through our menu and grab your favorite cocktail from your nearest bartender.</p>
+    <span class="modal-close1">X</span>
+  </div>
+</div>
+<div class="modal-bg2">
+  <div class="modal">
+    <h2>Contact Form</h2>
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
     </div>
-  </section>
-  <!--Cocktails Card Selection Ends-->
+    <span class="modal-close2">X</span>
+  </div>
+</div>
 
-  <!--Footer-->
-  <footer class="responsive-blog-footer">
-    <div class="row">
-      <div class="medium-3 columns small-order-2 medium-order-1 about-container">
-        <div class="row">
-          <div class="hide-for-small-only medium-4 columns about-section">
-            <img src="https://placehold.it/250x250">
-          </div>
-          <div class="medium-8 columns about-section">
-            <h4> About Me</h4>
-            <p>paragraph about how amazing and awesome i am paragraph about how amazing and awesome i am paragraph about
-              how amazing and awesome i am</p>
-            <a href="">Read More</a>
-          </div>
-        </div>
-      </div>
-      <div class="small-12 medium-4 columns small-order-1 medium-order-2 mailing-container">
-        <h4 class="mailing-list">Join my mailing list</h4>
-        <input type="text" placeholder="Email Address">
-        <a class="button expanded subscribe-button" href="#">Subscribe Now</a>
-      </div>
-    </div>
-    <div class="row tag-search">
-      <div class="columns">
-        <h4>Search by Tag</h4>
-        <ul class="menu simple tag-section">
-          <li><a href="">word</a></li>
-          <li><a href="">word</a></li>
-          <li><a href="">word</a></li>
-          <li><a href="">word</a></li>
-          <li><a href="">word</a></li>
-          <li><a href="">word</a></li>
-          <li><a href="">word</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="row columns flex-container align-justify">
-      <p> all rights reserved</p>
-      <div class="up-arrow">
-        <a href="#top"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>
-      </div>
-    </div>
-  </footer>
+<!--Footer-->
+<footer class="social-footer">
+  <div class="social-footer-left">
+    <a href="#"><img class="logo" src="wine bottles.jpg"></a>
+  </div>
+  <div class="social-footer-icons">
+    <ul class="menu simple">
+      <li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
+      <li><a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a></li>
+      <li><a href="https://www.pinterest.com/" class="fa fa-pinterest-p"></a></li>
+      <li><a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a></li>
+    </ul>
+  </div>
+</footer>
 
 
-  <!--JQuery-->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
-    integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
-    integrity="sha512-rmZcZsyhe0/MAjquhTgiUcb4d9knaFc7b5xAfju483gbEXTkeJRUMIPk6s3ySZMYUHEcjKbjLjyddGWMrNEvZg=="
-    crossorigin="anonymous"></script>
-  <script src="./assets/main.js"></script>
 
+<!--JQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
+  integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
+<script src="./assets/main.js"></script>
+</body>
 </html>
