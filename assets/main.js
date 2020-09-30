@@ -43,7 +43,7 @@ $(".drink").on("click", function () {
 
     method: "GET",
   }).then(function (response) {
-    for (var i = 0; i < 8; i++) {
+    for (var i = 0; i < 14; i++) {
       response.drinks[i];
       var card = $('<div class="card" style="width: 300px;">');
       var drinkheader = $('<div class="card-divider">')
