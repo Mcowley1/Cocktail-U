@@ -1,4 +1,4 @@
-# Wine-Utopia
+# Cocktail-U
 
 #### User Criteria
 
@@ -59,13 +59,13 @@ THEN application will accommodate accordingly using media queries
 
 
 #### Sources Links:
-* [GitHub Repository](https://github.com/Mcowley1/Cocktail-Utopia)
-* [Deployed GitHub IO](https://mcowley1.github.io/Cocktail-Utopia)
+* [GitHub Repository](https://github.com/Mcowley1/Cocktail-U)
+* [Deployed GitHub IO](https://mcowley1.github.io/Cocktail-U)
 
 #### Project Screenshot
 
-![Cocktail-utopia-landing-page](./landing-page.PNG)
-![Cocktail-utopia-landing-page](./main-page.PNG)
+![Cocktail-U-landing-page](./assets/images/landing-page.PNG)
+![Cocktail-U-Main-page](./assets/images/main-page.PNG)
 
 
 #### Project Demo Video
