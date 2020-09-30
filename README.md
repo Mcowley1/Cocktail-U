@@ -64,8 +64,8 @@ THEN application will accommodate accordingly using media queries
 
 #### Project Screenshot
 
-![Cocktail-U-landing-page](./assets/images/landing-page.PNG)
-![Cocktail-U-Main-page](./assets/images/main-page.PNG)
+![Cocktail-U-landing-page](landing-page.png)
+![Cocktail-U-Main-page](main-page.png)
 
 
 #### Project Demo Video
