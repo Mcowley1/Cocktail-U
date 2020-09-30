@@ -1,190 +1,346 @@
 * {
-    font-family: Cinzel;
-    background-color: #242420;
-    color: #878472;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .product-card {
-    background-color: #fefefe;
-    border: 1px solid #e6e6e6;
-    padding: 1rem;
-    margin-bottom: 1.5rem;
-  }
-  
-  .product-card-thumbnail {
-    display: block;
-    position: relative;
-  }
+  color: #878472;
+  margin: 0;
+  padding: 0;
+}
 
-  /* Custom Styling */
+.product-card {
+  background-color: #fefefe;
+  border: 1px solid #e6e6e6;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.product-card-thumbnail {
+  display: block;
+  position: relative;
+}
+
+
+/* Recipe results will wrap on multiple lines if needed */
+#drink-content {
+flex-wrap: wrap;
+}
+
+/* When a user hovers on a recipe tile, the cursor will change to a pointer to indicate that it can be clicked */
+.drink-tile:hover {
+cursor: pointer;
+}
+
 
 /* start of nav bar */
 body {
-    padding-top: 330px;
-    background-color: #242420;
-  }
-  
-  .sticky-shrinknav-menu {
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-            transform: translateX(-50%);
-    bottom: 0;
-    height: 3.75rem;
-    line-height: 3.75rem;
-    width: 100%;
-    background-color: rgba(23, 121, 186, 0.1);
-    transition: all 0.5s ease;
-  }
-  
-  .sticky-shrinknav-menu li {
-    border-radius: 2px;
-    transition: all 0.3s ease;
-  }
-  
-  .sticky-shrinknav-menu li:hover {
-    box-shadow: 0 0 0 1px #fefefe;
-  }
-  
-  .sticky-shrinknav-menu a {
-    color: #fefefe;
-  }
-  
-  .sticky-shrinknav-header-title {
-    transition: all 0.3s ease;
-    position: relative;
-    -webkit-transform: translateY(-1.875rem);
-        -ms-transform: translateY(-1.875rem);
-            transform: translateY(-1.875rem);
-    margin-bottom: 0;
-    color: #fefefe;
-    font-family: cinzel;
-  }
-  
-  .sticky-shrinknav-header {
-    width: 100%;
-    height: 300px;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background-color: #2196e3;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    transition: all 0.5s ease;
-    letter-spacing: 6px;
-    font-weight: bold;
-    font-family: cinzel;
-  }
-  
-  body.sticky-shrinknav-wrapper {
-    padding-top: 130px;
-  }
-  
-  body.sticky-shrinknav-wrapper .sticky-shrinknav-header {
-    height: 3.75rem;
-    background-color: rgba(9, 18, 24, 0.4);
-  }
-  
-  body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-title {
-    -webkit-transform: scale(0);
-        -ms-transform: scale(0);
-            transform: scale(0);
-    transition: all 0.3s ease;
-  }
+  padding-top: 330px;
+  background-color: #242420;
+}
+
+.sticky-shrinknav-menu {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+  height: 3.75rem;
+  line-height: 3.75rem;
+  width: 100%;
+  background-color: rgba(23, 121, 186, 0.1);
+
+  transition: all 0.5s ease;
+}
+
+.sticky-shrinknav-menu li {
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.sticky-shrinknav-menu li:hover {
+  box-shadow: 0 0 0 1px #fefefe;
+}
+
+.sticky-shrinknav-menu a {
+  color: #fefefe;
+  font-weight: bold;
+  font-family: cinzel;
+}
+
+.sticky-shrinknav-header-title {
+  transition: all 0.3s ease;
+  position: relative;
+  -webkit-transform: translateY(-1.875rem);
+      -ms-transform: translateY(-1.875rem);
+          transform: translateY(-1.875rem);
+  margin-bottom: 0;
+  color: #fefefe;
+  font-family: cinzel;
+}
+
+.sticky-shrinknav-header {
+  width: 100%;
+  height: 300px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: none;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  letter-spacing: 6px;
+  font-weight: bold;
+  font-family: cinzel;
+}
+
+body.sticky-shrinknav-wrapper {
+  padding-top: 130px;
+}
+
+body.sticky-shrinknav-wrapper .sticky-shrinknav-header {
+  height: 3.75rem;
+  background-color: rgba(9, 18, 24, 0.4);
+}
+
+body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-title {
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+  transition: all 0.3s ease;
+}
 /* nav bar ends */  
 
 /* Types of Drinks Container Starts*/
 .five-up-feature {
-  text-align: center;
+text-align: center;
 } */
 
 .five-up-feature .five-up-feature-header {
-  margin-bottom: 6rem;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+margin-bottom: 6rem;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
 }
 
 .five-up-feature .five-up-feature-image {
-  margin-bottom: 2rem;
+margin-bottom: 2rem;
 }
 
 .five-up-feature .five-up-feature-text {
-  margin-bottom: 2rem;
+margin-bottom: 2rem;
 }
 /* Types of Drinks Container Ends */
 
 
-/*Cocktails Card Selection Starts */
-.card {
-  width: 200px;
-  height: 200px;
-  font: small;
+/*Drinks Card Container Starts */
+.card-drinks-container {
+margin-bottom: 1rem;
+background-color: #242420;
+color: #0a0a0a;
+overflow: hidden;
+padding: 0;
+border-radius: 0;
 }
-/*Cocktails Card Selection Ends */
 
+.card-drinks-container .card-drinks-avatar .drinks-image {
+display: block;
+margin: auto;
+border-radius: 50%;
+width: 11.875rem;
+height: 11.875rem;
+padding: 0.9375rem;
+}
+
+.card-drinks-container .card-drinks-avatar .drinks-image:hover {
+-webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+.card-drinks-container .card-drinks-bio {
+padding: 1rem;
+text-align: center;
+}
+
+.card-drinks-container .card-drinks-bio .location {
+display: inline-block;
+margin: 0 0.9375rem;
+color: #767676;
+font-size: 0.875rem;
+}
+
+.card-drinks-container .card-drinks-bio .location-icon,
+.card-drinks-container .card-drinks-bio .location-text {
+display: inline-block;
+padding: 0 0.3125rem;
+}
+
+.card-drinks-container .card-drinks-social {
+background: #e6e6e6;
+padding: 1rem;
+text-align: center;
+}
+
+.card-drinks-container .card-drinks-social ul {
+display: inline-block;
+}
+
+.card-drinks-container .card-drinks-social ul li {
+margin: 0 10px;
+font-size: 1.2em;
+cursor: pointer;
+font-family: cinzel;
+}
+
+.card-drinks-container .card-drinks-social ul li:hover {
+-webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+.card-drinks-container .card-drinks-button {
+text-align: center;
+padding: 1rem;
+}
+
+/* change text family */
+h1, h2, h3, h4, p {
+  font-family: cinzel;
+}
+/*Drinks Card Container Ends */
+
+/* modal */
+
+.modal-bg, .modal-bg1, .modal-bg2 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s;
+}
+
+button {
+  font-size: 23px;
+  font-weight: bold;
+  font-family: cinzel;
+  margin: 7px;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+}
+
+.modal-close, .modal-close1, .modal-close2 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.bg-active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal {
+  position: relative;
+  background-color: whitesmoke;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: cinzel;
+  border: black solid;
+  border-radius: 7px;
+}
+
+.modal p {
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
 
 /* footer starts */
-.responsive-blog-footer {
-  background: #4a4a4a;
-  padding: 3rem 3rem;
+.social-footer {
+  padding: 1rem;
+  background-color: rgba(23, 121, 186, 0.1);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.social-footer .social-footer-icons li:last-of-type {
+  margin-right: 0;
+}
+
+.social-footer .social-footer-icons .fa {
+  font-size: 1.3rem;
+  color: #fefefe;
+}
+
+.social-footer .social-footer-icons .fa:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+}
+/* footer ends */
+
+/* contact form */
+input[type=text], select, textarea {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
   color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-@media screen and (max-width: 39.9375em) {
-  .responsive-blog-footer h4 {
-    font-size: 1.5rem;
-  }
+input[type=submit]:hover {
+  background-color: #45a049;
 }
 
-.responsive-blog-footer p {
-  color: #8a8a8a;
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 350px;
 }
 
-.responsive-blog-footer .mailing-list {
-  margin-bottom: 1.5rem;
+/* youtube music */
+iframe {
+  display: none;
 }
-
-.responsive-blog-footer .mailing-container {
-  margin-bottom: 2rem;
-}
-
-.responsive-blog-footer .about-section, .responsive-blog-footer .tag-section {
-  margin-bottom: 2rem;
-}
-
-.responsive-blog-footer .about-section a, .responsive-blog-footer .tag-section a {
-  color: #1779ba;
-}
-
-.responsive-blog-footer .subscribe-button {
-  background-color: #1779ba;
-}
-
-.responsive-blog-footer .subscribe-button:hover {
-  background-color: #146aa3;
-  transition: color 0.3s ease-in;
-}
-
-.responsive-blog-footer .fa-chevron-circle-up {
-  font-size: 3rem;
-  color: #8a8a8a;
-}
-
-.responsive-blog-footer .fa-chevron-circle-up:hover {
-  color: #b0b0b0;
-  transition: color 0.3s ease-in;
-}
-/* footer ends */  
