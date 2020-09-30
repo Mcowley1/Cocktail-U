@@ -59,7 +59,6 @@ THEN application will accommodate accordingly using media queries
 
 
 #### Sources Links:
-* [LANDING-PAGE](file:///Users/matthewcowley/Desktop/cocktail-Utopia/landing.html)
 * [GitHub Repository](https://github.com/Mcowley1/Cocktail-Utopia)
 * [Deployed GitHub IO](https://mcowley1.github.io/Cocktail-Utopia)
 
