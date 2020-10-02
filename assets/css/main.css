@@ -213,7 +213,35 @@ padding: 1rem;
 h1, h2, h3, h4, p {
   font-family: cinzel;
 }
+
+
+/* Cocktails Styling Starts*/
+.drink {
+  font-family: Cinzel;
+  background-color: #242420;
+  color: #878472;
+}
+.drink-section {
+  text-align: center;
+  }
+/* Cocktails Styling Ends*/
+/* Cocktails Card Selection Starts */
+.card {
+  width: 200px;
+  height: 300px;
+  font-size: small;
+  color: #242420;
+  border: solid 4px;
+  border-radius: 10px;
+}
+
+.card:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* Cocktails Card Selection Ends */
 /*Drinks Card Container Ends */
+
 
 /* modal */
 
