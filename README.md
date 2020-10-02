@@ -71,11 +71,11 @@ THEN application will accommodate accordingly using media queries
 #### Project Demo Video
 
 
-
+[![Demo](assets/images/Group-demo.PNG)](https://youtu.be/UGofaCCsn2g)
 
 ### Summary
 
-In this application, we apply three servers API in combination to HTML and JavaScript to synergistically create an application that allows users to choose cockatils from a list of 5 alcholic beverages. When user goes into the application, there is an name and email input section that user must complete before entering the main page. In this section, an email verification api courtersy of (https://mailboxlayer.com) has been put in place where if the user inputs an invalid email address, the user cannot go onto the main page. Once user goes into main page, user can listen to some music in the background courtersy of our second API (https://developers.google.com/youtube). When user clicks an item, for example, Vodka then user sees a list of cockatils that are made from their choice of alcoholic beverage. A third API courtersy of (www.thecocktaildb.com) provides the customer with the list of cocktails from their choice of alcohol type. Main page was styled using Foundation Frameworks to provide a nice and slick view. 
+In this application, we apply three servers API in combination to HTML and JavaScript to synergistically create an application that allows users to choose cocktails from a list of 5 alcoholic beverages. When user goes into the application, there is an name and email input section that user must complete before entering the main page. In this section, an email verification api courtesy of (https://mailboxlayer.com) has been put in place where if the user inputs an invalid email address, the user cannot go onto the main page. Once user goes into main page, user can listen to some music in the background courtesy  of our second API (https://developers.google.com/youtube). When user clicks an item, for example, Vodka then user sees a list of cocktails that are made from their choice of alcoholic beverage. A third API courtesy of (www.thecocktaildb.com) provides the customer with the list of cocktails from their choice of alcohol type. Main page was styled using Foundation Frameworks to provide a nice and slick view. 
 
 
 ### This project uses the following languages and frameworks: 
